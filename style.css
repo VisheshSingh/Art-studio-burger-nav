@@ -42,3 +42,45 @@ nav ul li a:hover{
     background: yellow;
     transition: all 0.5s ease-in;
 }
+
+#hero, #about, #services, #projects, #contacts{
+    border:1px solid #000;
+    margin:10px 0;
+    min-height:500px;
+}
+
+#hero{
+    background:url(img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top:0;
+    display: flex;
+    align-items: center;
+    padding:10px 20px;
+    justify-content: center;
+}
+
+#main-hero h1{
+    font-size:50px;
+}
+
+#main-hero p{
+    font-size:25px;
+}
+
+#main-hero .btn{
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #000;
+    margin-top:2em;
+    margin-right:1em;
+}
+
+#main-hero .btn:hover{
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all 0.5s ease-in;
+}
