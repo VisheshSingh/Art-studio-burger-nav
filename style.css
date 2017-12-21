@@ -89,6 +89,7 @@ nav ul li a:hover{
     #mobile-menu{
         background:rgb(255, 255, 85);
         color: #000;
+        border-bottom: 3px solid #000;
     }
 
     #mobile-menu ul{
@@ -117,7 +118,7 @@ nav ul li a:hover{
 
 /*************** SECTIONS *****************/
 #hero, #about, #services, #projects, #contacts{
-    border:1px solid #000;
+    border-bottom:3px solid yellow;
     min-height:500px;
 }
 
@@ -275,6 +276,7 @@ footer{
     width: 100%;
     height: 100px;
     margin-top:40px;
+    border-top:3px solid yellow;
 }
 
 footer p {
