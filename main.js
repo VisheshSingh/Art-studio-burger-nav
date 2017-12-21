@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $(".burger").click(function(){
         $(this).toggleClass('is-active');
-        $("#mobile-menu").toggle();
+        $("#mobile-menu").slideToggle();
     })
 
     // Add smooth scrolling to all links
