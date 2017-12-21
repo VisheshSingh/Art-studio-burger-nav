@@ -177,8 +177,10 @@ nav ul li a:hover{
 }
 
 #about p{
-    padding: 20px 50px;
-    line-height: 1.8em;
+    margin-bottom: 40px;
+    padding: 5px 50px;
+    font-size: 18px;
+    line-height: 2em;
 }
 
 #about .container{
