@@ -284,3 +284,23 @@ footer p {
 footer p span {
     color: yellow;
 }
+
+@media (max-width: 768px){
+    #service p, #project p, #contact p {
+        padding-bottom:50px;
+    }
+    
+    #contact form input{
+        display: block;
+        font-size:20px;
+        margin:10px auto;
+        padding:10px 20px;
+        width:500px;
+    }
+    
+    #contact form textarea{
+        margin:10px auto;
+        width:500px;
+    }
+    
+}
